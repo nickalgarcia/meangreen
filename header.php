@@ -38,7 +38,6 @@
         <h1 id="logo">
              <a class="navbar-brand" href="#">LOGO</a>
         </h1>
-        </div>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -71,6 +70,7 @@
             <!--/.nav-collapse -->
         </div>
     </nav>
+    </div>
     </header>
         <!-- Begin page content -->
     <div class="container">
