@@ -1,0 +1,87 @@
+header {
+    width: 100%;
+    height: 175px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    -webkit-transition: height .5s;
+    -moz-transition: height .5s;
+    -ms-transition: height .5s;
+    -o-transition: height .5s;
+    transition: height .5s;
+    border-bottom: 1px solid #4790cd;
+    background: #fff;
+}
+
+header a#logo {
+    display: inline-block;
+    height: 150px;
+    width: 107px;
+    line-height: 150px;
+    float: left;
+    font-size: 32px;
+    color: #777;
+    font-weight: 400;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    background: url('/img/logo.png') no-repeat;
+    margin: auto;
+}
+
+header nav a {
+    line-height: 150px;
+    margin-left: 20px;
+    font-size: 18px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+header.smaller {
+    height: 75px;
+}
+
+header.smaller a#logo {
+    line-height: 75px;
+    font-size: 30px;
+    background: url('/img/logo-small.png') no-repeat center;
+    height: 50px;
+    width: 100px;
+    background-size: contain;
+}
+
+header.smaller nav a {
+    line-height: 75px;
+}
+
+.navbar-default {
+    background: #fff;
+    margin-top: 15px;
+    border: 0;
+}
+
+header.smaller .navbar-default {
+    margin-top: 0;
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        margin-top: 150px;
+    }
+    .navbar-nav {
+        margin-left: 25%;
+    }
+    .navbar-nav li {
+        margin-top: 6%;
+    }
+    header.smaller .navbar-nav li {
+        margin-top: -4%;
+    }
+}
